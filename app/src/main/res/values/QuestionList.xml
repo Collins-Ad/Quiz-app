@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources></resources>
+
+    <string-array name="questions">
+    <item>Can Batman beat Superman?</item>
+    <item>Is Gotham the most dangerous city in the DC universe?</item>
+    <item>Is superman a government agent known as the atomic knight in an alternate universe?</item>
+    <item>Can ambush bug teleport through the 4th wall?</item>
+    <item>Was the character "Condiment King" once part of the Justice league?</item>
+    </string-array>
+
+
+    //ArrayList<String> answers = new ArrayList<String>();
+        answers.add("True"
+
