@@ -1,29 +1,19 @@
-package com.example.quizapp;
-
-import java.util.ArrayList;
-import java.util.List;
 public class Question {
-    List<String> questions = new ArrayList<>();
-    questions.add("Can Batman beat Superman?");
-    questions.add("Is Gotham the most dangerous city in the DC universe?");
-    questions.add("Is superman a government agent known as the atomic knight in an alternate universe?");
-    questions.add("Can ambush bug teleport through the 4th wall?");
-    questions.add("Was the character 'Condiment King' once part of the Justice league?");
+    private final String text;
+    private final boolean answerTrue;
+    private final String hint;
+    private final int imageRes;
 
-    ArrayList<String> answers = new ArrayList<String>();
-    answers.add("True");
-    answers.add("True");
-    answers.add("False");
-    answers.add("True");
-    answers.add("False");
-    public Question(String q, String answer){
-for (int i = 0; i < questions.size;i++){
-
-}
-
-
-
-
-
+    public Question(String text, boolean answerTrue, String hint, int imageRes) {
+        this.text = text;
+        this.answerTrue = answerTrue;
+        this.hint = hint;
+        this.imageRes = imageRes;
     }
+
+    public String getText() { return text; }
+    public boolean isAnswerTrue() { return answerTrue; }
+    public String getHint() { return hint; }
+    public int getImageRes() { return imageRes; }
 }
+
